@@ -1,0 +1,26 @@
+{% extends 'app/base.html'%}
+{% block content %}
+{% load staticfiles %}
+<link href="{% static 'css/estilos.css' %}" rel="stylesheet">
+
+
+
+<div>
+  <h1>Bienvenidos Supermercado La Bodeguita </h1>
+
+</div>
+
+
+
+
+
+
+    <div><button  class="button">
+        <li><a class="g1" href="http://localhost:8000/login/">Ingresar</a></li></button>
+    </div>
+    <div><button class="button">
+        <li><a class="g1" href="http://localhost:8000/register/">Registrarse</a></li></button>
+    </div>
+  
+</div>
+  {% endblock %}
